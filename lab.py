@@ -2,6 +2,7 @@
 
     python lab.py buy     the real bot (breakout option buying) + variants, every day since 2022
     python lab.py sell    09:20 short straddle / iron fly family, chosen on 2022-23, judged on 2024-26
+    python lab.py real    real option prices (data/nifty_options_5m.csv) vs both models, 09:20 -> 15:15
 
 No free history of option prices exists, so options are priced by Black-Scholes at the live India
 VIX, with costs and 0.5% slippage per fill. How time decay is counted swings results, so every test
@@ -250,5 +251,47 @@ def main_sell():
             print(show(f"  {mode}: 2024-26 (never seen)", oos, ""))
 
 
+def main_real():
+    """How much does a real ATM straddle lose from 09:20 to 15:15, vs what each model predicts?"""
+    opt = {}
+    with open(HERE / "data" / "nifty_options_5m.csv") as f:
+        for r in csv.DictReader(f):
+            opt[(r["expiry"], int(r["strike"]), r["kind"], r["time"][:16])] = float(r["close"])
+    expiries = sorted({k[0] for k in opt})
+    buckets: dict = {}
+    for d, bars in by_day().items():
+        b0 = next((b for b in bars if b[0].time() == time(9, 15)), None)
+        b1 = next((b for b in bars if b[0].time() == time(15, 10)), None)
+        if not b0 or not b1:
+            continue
+        k = round(b0[4] / 100) * 100
+        for e in expiries:
+            ed = date.fromisoformat(e)
+            dte = (ed - d).days
+            if not 1 <= dte <= 35:
+                continue
+            try:
+                real0 = sum(opt[(e, k, x, f"{d}T09:15")] for x in ("CE", "PE"))
+                real1 = sum(opt[(e, k, x, f"{d}T15:10")] for x in ("CE", "PE"))
+            except KeyError:
+                continue
+            m = {md: (sum(price(b0[4], k, x, b0[0] + BAR, ed, md) for x in ("CE", "PE")),
+                      sum(price(b1[4], k, x, b1[0] + BAR, ed, md) for x in ("CE", "PE"))) for md in ("calendar", "trading")}
+            key = "1" if dte == 1 else "2-3" if dte <= 3 else "4-7" if dte <= 7 else "8-14" if dte <= 14 else "15-35"
+            buckets.setdefault(key, []).append((real0, real1, m))
+    print("ATM straddle, sold 09:20 and bought back 15:15 (Rs per unit; + = seller gains)")
+    print(f"{'days to expiry':15} {'samples':>7} | {'price @09:20 real / cal / trd':>32} | {'09:20->15:15 decay real / cal / trd':>38}")
+    for key in ("1", "2-3", "4-7", "8-14", "15-35"):
+        rows = buckets.get(key, [])
+        if not rows:
+            continue
+        n = len(rows)
+        avg = lambda f: sum(f(r) for r in rows) / n
+        p0 = (avg(lambda r: r[0]), avg(lambda r: r[2]["calendar"][0]), avg(lambda r: r[2]["trading"][0]))
+        dk = (avg(lambda r: r[0] - r[1]), avg(lambda r: r[2]["calendar"][0] - r[2]["calendar"][1]),
+              avg(lambda r: r[2]["trading"][0] - r[2]["trading"][1]))
+        print(f"{key:15} {n:7} | {p0[0]:9.1f} / {p0[1]:8.1f} / {p0[2]:8.1f} | {dk[0]:+11.1f} / {dk[1]:+9.1f} / {dk[2]:+9.1f}")
+
+
 if __name__ == "__main__":
-    {"buy": main_buy, "sell": main_sell}[sys.argv[1]]()
+    {"buy": main_buy, "sell": main_sell, "real": main_real}[sys.argv[1]]()

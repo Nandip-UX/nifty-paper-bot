@@ -28,6 +28,10 @@ jobs:
           BROKER: yahoo
           DATA_DIR: cloud
         run: python bot.py
+      - name: Save today's real NIFTY weekly option prices (research data)
+        if: always()
+        continue-on-error: true
+        run: python fetch_data.py today
       - name: Save journal, report and log to the repo
         if: always()
         run: |

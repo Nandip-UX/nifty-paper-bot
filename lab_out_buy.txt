@@ -2,3 +2,20 @@
 == OPTION BUYING, decay counted by calendar time (Rs per Rs 1,500 risked per trade) ==
 breakout (current rules)                     days 1013  net   -163,188  PF 0.85  win 43%  green months 31%  maxDD   182,070
                                              2022:-51,950  2023:-70,084  2024:-10,529  2025:-13,247  2026:-17,378
+breakout, entries 09:30-11:00 only           days  580  net    -75,492  PF 0.85  win 43%  green months 40%  maxDD    87,331
+                                             2022:-24,272  2023:-47,962  2024:-12,116  2025:+28,186  2026:-19,328
+breakout, T1 at 1R                           days 1023  net   -207,985  PF 0.78  win 45%  green months 31%  maxDD   222,281
+                                             2022:-58,227  2023:-55,037  2024:-37,290  2025:-39,757  2026:-17,674
+breakout, morning + T1 1R                    days  609  net   -102,007  PF 0.78  win 49%  green months 40%  maxDD   108,283
+                                             2022:-19,089  2023:-53,482  2024:-23,712  2025:+13,520  2026:-19,245
+
+== OPTION BUYING, decay counted by trading time (Rs per Rs 1,500 risked per trade) ==
+breakout (current rules)                     days 1013  net   -555,227  PF 0.56  win 37%  green months 10%  maxDD   560,832
+                                             2022:-135,278  2023:-150,511  2024:-84,147  2025:-109,422  2026:-75,868
+breakout, entries 09:30-11:00 only           days  580  net   -213,506  PF 0.62  win 41%  green months 28%  maxDD   214,620
+                                             2022:-51,782  2023:-72,492  2024:-36,501  2025:-13,008  2026:-39,724
+breakout, T1 at 1R                           days 1023  net   -548,677  PF 0.52  win 40%  green months 12%  maxDD   552,214
+                                             2022:-136,963  2023:-126,393  2024:-103,154  2025:-114,518  2026:-67,649
+breakout, morning + T1 1R                    days  609  net   -216,543  PF 0.57  win 47%  green months 28%  maxDD   217,941
+                                             2022:-43,999  2023:-74,133  2024:-42,981  2025:-18,446  2026:-36,983
+.venv/bin/python -u lab.py buy  571.36s user 55.89s system 86% cpu 12:09.02 total

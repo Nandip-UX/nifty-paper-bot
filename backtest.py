@@ -53,7 +53,7 @@ def replay(bars: list, lot: int, balance: float, prem: float = 200.0, index: str
                     if lots:
                         t.pnl += leg(t, lots, px, lot, prem)
                         t.lots -= lots
-            if t and t.lots and brain.fading(t, bars[: i + 1]):
+            if t and t.lots and brain.fading(t, bars[max(0, i - 600) : i + 1]):
                 t.pnl += leg(t, t.lots, c, lot, prem)
                 t.lots = 0
             if t and not t.lots:
@@ -64,7 +64,7 @@ def replay(bars: list, lot: int, balance: float, prem: float = 200.0, index: str
                 t = None
             if t or risk.gate(end, count, streak, pnl, balance, False):
                 continue
-            hist = bars[: i + 1]
+            hist = bars[max(0, i - 600) : i + 1]  # ~8 days, as the live bot sees
             sides, _ = brain.market(hist, end, 0.0, {})
             s, _ = brain.chart(index, hist, end)
             if not s or s.side not in sides:

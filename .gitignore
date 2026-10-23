@@ -2,10 +2,11 @@
 .tokens.json
 .venv/
 __pycache__/
-STOP
+/STOP
 # data written by runs on this Mac (cloud runs write to cloud/, which IS committed)
-journal.csv
-reports/
-logs/
-data/
-lab_out/
+/journal.csv
+/reports/
+/logs/
+/data/
+/lab_out/
+/lab_out_*.txt

@@ -1,0 +1,53 @@
+
+== OPTION SELLING: top 5 settings chosen on 2022-23 (Rs per lot of 65) ==
+
+# SL 20% +cost naked @09:45 no-expiry-day
+  calendar: 2022-23 (chosen on)              days  394  net   -134,091  PF 0.61  win 32%  green months 17%  maxDD   140,222
+                                             2022:-77,221  2023:-56,871
+  calendar: 2024-26 (never seen)             days  558  net   -180,257  PF 0.69  win 36%  green months 29%  maxDD   188,502
+                                             2024:-61,430  2025:-62,594  2026:-56,233
+  trading: 2022-23 (chosen on)               days  394  net   +335,274  PF 2.54  win 66%  green months 100%  maxDD    15,336
+                                             2022:+174,117  2023:+161,156
+  trading: 2024-26 (never seen)              days  558  net   +564,294  PF 2.40  win 63%  green months 94%  maxDD    35,946
+                                             2024:+211,143  2025:+150,065  2026:+203,086
+
+# SL 30% wings 400 @09:45 no-expiry-day
+  calendar: 2022-23 (chosen on)              days  394  net   -139,502  PF 0.66  win 43%  green months 25%  maxDD   155,401
+                                             2022:-92,379  2023:-47,123
+  calendar: 2024-26 (never seen)             days  558  net   -160,072  PF 0.77  win 42%  green months 41%  maxDD   197,627
+                                             2024:-22,686  2025:-99,559  2026:-37,827
+  trading: 2022-23 (chosen on)               days  394  net   +155,603  PF 1.63  win 71%  green months 83%  maxDD    28,865
+                                             2022:+54,951  2023:+100,651
+  trading: 2024-26 (never seen)              days  558  net   +190,677  PF 1.38  win 65%  green months 76%  maxDD    74,006
+                                             2024:+120,369  2025:+19,116  2026:+51,192
+
+# SL 20% +cost wings 400 @09:45 no-expiry-day
+  calendar: 2022-23 (chosen on)              days  394  net   -144,102  PF 0.64  win 30%  green months 21%  maxDD   158,473
+                                             2022:-84,655  2023:-59,447
+  calendar: 2024-26 (never seen)             days  558  net   -158,954  PF 0.76  win 32%  green months 32%  maxDD   178,195
+                                             2024:-41,539  2025:-68,035  2026:-49,380
+  trading: 2022-23 (chosen on)               days  394  net    +66,529  PF 1.19  win 56%  green months 75%  maxDD    42,663
+                                             2022:-17,234  2023:+83,763
+  trading: 2024-26 (never seen)              days  558  net    +38,904  PF 1.06  win 50%  green months 56%  maxDD    97,328
+                                             2024:+47,065  2025:-38,455  2026:+30,293
+
+# SL 30% +cost wings 400 @09:45 no-expiry-day
+  calendar: 2022-23 (chosen on)              days  394  net   -145,987  PF 0.62  win 37%  green months 21%  maxDD   157,427
+                                             2022:-87,280  2023:-58,707
+  calendar: 2024-26 (never seen)             days  558  net   -133,690  PF 0.78  win 38%  green months 41%  maxDD   175,434
+                                             2024:-24,631  2025:-88,618  2026:-20,441
+  trading: 2022-23 (chosen on)               days  394  net   +127,997  PF 1.48  win 69%  green months 88%  maxDD    27,157
+                                             2022:+43,629  2023:+84,368
+  trading: 2024-26 (never seen)              days  558  net   +152,543  PF 1.31  win 63%  green months 74%  maxDD    80,976
+                                             2024:+86,683  2025:+2,890  2026:+62,970
+
+# SL 30% +cost naked @09:45 no-expiry-day
+  calendar: 2022-23 (chosen on)              days  394  net   -148,199  PF 0.57  win 44%  green months 12%  maxDD   152,069
+                                             2022:-91,909  2023:-56,289
+  calendar: 2024-26 (never seen)             days  558  net   -186,217  PF 0.66  win 46%  green months 32%  maxDD   209,579
+                                             2024:-54,861  2025:-87,315  2026:-44,040
+  trading: 2022-23 (chosen on)               days  394  net   +424,351  PF 3.52  win 76%  green months 100%  maxDD     9,715
+                                             2022:+255,026  2023:+169,324
+  trading: 2024-26 (never seen)              days  558  net   +737,543  PF 3.44  win 77%  green months 97%  maxDD    13,603
+                                             2024:+276,968  2025:+215,657  2026:+244,918
+.venv/bin/python -u lab.py sell  94.02s user 4.95s system 85% cpu 1:55.62 total

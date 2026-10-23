@@ -1,0 +1,4 @@
+
+== OPTION BUYING, decay counted by calendar time (Rs per Rs 1,500 risked per trade) ==
+breakout (current rules)                     days 1013  net   -163,188  PF 0.85  win 43%  green months 31%  maxDD   182,070
+                                             2022:-51,950  2023:-70,084  2024:-10,529  2025:-13,247  2026:-17,378

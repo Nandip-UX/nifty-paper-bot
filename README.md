@@ -62,6 +62,36 @@ Six agents work together inside one program. The **Risk agent can veto any trade
 
 ---
 
+## Strategy research: is there a consistently profitable intraday strategy?
+
+Tested on 23 Oct 2026 with **4.8 years of 5-minute NIFTY + India VIX data** (Jan 2022 - Oct 2026,
+~1,190 days, from Upstox's free public API) and **real prices of every listed NIFTY option** (last
+4 months). Costs and slippage included. Rerun with `python lab.py buy | sell | real`.
+
+| Strategy | Result | Verdict |
+|---|---|---|
+| Breakout option buying (this bot) | Lost in **every year 2022-2026**; -Rs 1.6L to -Rs 5.6L per Rs 1,500-risk-per-trade over 4.8 years (PF 0.56-0.85) | No edge |
+| Same entry signal, no options (pure index points) | 1,879 trades, average **0.000R** | Signal predicts nothing |
+| Morning-only / T1 at 1R / wider stop variants | All lose | No edge |
+| Intraday momentum, first-hour trend, gap fade, yesterday's direction | All within noise (t-stat below 1.1), signs flip year to year | No edge |
+| Intraday short straddle / iron fly at 09:20 or 09:45 (64 settings) | **0 of 64 profitable** under the model that matches real option prices, even at 0.1% slippage | No edge |
+
+**What the real option prices showed:** an at-the-money straddle held 09:20-15:15 lost value
+the way the "calendar" model predicts (real -Rs 8.4 vs model -Rs 8.9 per unit, 41 samples).
+Most option time decay happens **overnight**, so an intraday seller collects only about a
+quarter of each day's decay while still paying for every intraday swing.
+
+**Still open:** options with 0-3 days to expiry behave differently, and expired contracts' real
+prices aren't free. From 26 Oct the daily cloud session saves real weekly option prices
+(`cloud/options/`), so near-expiry intraday selling can be tested on real prices at month end.
+
+**The honest summary:** no intraday NIFTY strategy tested here has a consistent edge. The one
+well-documented edge in index options (option sellers earning more than moves cost) is earned
+mostly **overnight**, which the intraday-only rule excludes. Holding positions overnight brings
+gap risk and needs more margin; that is your decision to make, not a code change.
+
+---
+
 ## Quick start: paper trading with NO broker account
 
 You can watch the bot paper trade with live market data today, before you have any broker keys:

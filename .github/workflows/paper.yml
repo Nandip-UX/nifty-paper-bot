@@ -1,0 +1,38 @@
+# Runs one paper-trading session every weekday on GitHub's servers (no Mac needed) and saves
+# the journal, day report and log into cloud/. Yahoo data, paper only: no keys, no real orders.
+name: paper-trading
+
+on:
+  schedule:
+    - cron: "50 3 * * 1-5"  # 09:20 IST Mon-Fri. GitHub may start it a few minutes late.
+  workflow_dispatch: {}      # "Run workflow" button for a manual start
+
+permissions:
+  contents: write
+
+concurrency: paper-trading  # never two sessions at once
+
+jobs:
+  session:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # GitHub's hard cap is 6 h; starting at/after 09:20 the day ends ~15:16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - run: pip install requests
+      - run: python test_core.py
+      - name: Trade the session (paper)
+        env:
+          BROKER: yahoo
+          DATA_DIR: cloud
+        run: python bot.py
+      - name: Save journal, report and log to the repo
+        if: always()
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add cloud
+          git commit -m "paper session $(TZ=Asia/Kolkata date +%F)" || exit 0
+          git pull --rebase && git push

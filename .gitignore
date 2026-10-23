@@ -1,0 +1,9 @@
+.env
+.tokens.json
+.venv/
+__pycache__/
+STOP
+# data written by runs on this Mac (cloud runs write to cloud/, which IS committed)
+journal.csv
+reports/
+logs/

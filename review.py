@@ -60,7 +60,8 @@ def diagnose(t: dict) -> tuple[str, str]:
     if any("premium" in e for e in ex):
         return "OPTION DECAY", f"the option lost value faster than the index moved ({why})"
     if "breakeven stop" in ex:
-        return "SCRATCH", "booked half at T1, rest stopped at entry (costs made it red)"
+        half = "booked half at T1, " if len(ex) > 1 else "reached T1, "
+        return "SCRATCH", f"{half}then stopped at the entry level; costs and time decay made it red"
     if "EOD square-off" in ex:
         return "NO FOLLOW-THROUGH", f"never reached target or stop, closed at 15:15 ({why})"
     if mfe < 0.3:

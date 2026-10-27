@@ -3,6 +3,7 @@
     python lab.py buy     the real bot (breakout option buying) + variants, every day since 2022
     python lab.py sell    09:20 short straddle / iron fly family, chosen on 2022-23, judged on 2024-26
     python lab.py real    real option prices (data/nifty_options_5m.csv) vs both models, 09:20 -> 15:15
+    python lab.py cloud   intraday short straddle on the REAL weekly prices the cloud saves daily
 
 No free history of option prices exists, so options are priced by Black-Scholes at the live India
 VIX, with costs and 0.5% slippage per fill. How time decay is counted swings results, so every test
@@ -34,9 +35,10 @@ def load(name: str) -> list:
                  float(r["close"])) for r in csv.DictReader(f)]
 
 
-BARS, VIXB = load("nifty"), load("vix")
-STARTS, VSTARTS = [b[0] for b in BARS], [b[0] for b in VIXB]
-DAYS = sorted({b[0].date() for b in BARS})
+if sys.argv[1:2] != ["cloud"]:  # the cloud test needs only the saved option files
+    BARS, VIXB = load("nifty"), load("vix")
+    STARTS, VSTARTS = [b[0] for b in BARS], [b[0] for b in VIXB]
+    DAYS = sorted({b[0].date() for b in BARS})
 
 
 def vix(at: datetime, field: int = 4) -> float:
@@ -293,5 +295,42 @@ def main_real():
         print(f"{key:15} {n:7} | {p0[0]:9.1f} / {p0[1]:8.1f} / {p0[2]:8.1f} | {dk[0]:+11.1f} / {dk[1]:+9.1f} / {dk[2]:+9.1f}")
 
 
+def main_cloud(sl: float = 0.3, slip: float = 0.001):
+    """Sell the ATM straddle at 09:20 on real prices (cloud/options/*.csv), per-leg stop `sl`,
+    buy back at 15:15. ATM = strike where call and put cost the same (no index price needed)."""
+    total: dict = {}
+    for f in sorted((HERE / "cloud" / "options").glob("*.csv")):
+        px: dict = {}
+        with open(f) as fh:
+            for r in csv.DictReader(fh):
+                px.setdefault((r["expiry"], int(r["strike"]), r["kind"]), {})[r["time"][11:16]] = (float(r["high"]), float(r["close"]))
+        day = f.stem
+        for e in sorted({k[0] for k in px}):
+            both = [k for k in {(k[1]) for k in px if k[0] == e}
+                    if "09:15" in px.get((e, k, "CE"), {}) and "09:15" in px.get((e, k, "PE"), {})]
+            if not both:
+                continue
+            k = min(both, key=lambda k: abs(px[(e, k, "CE")]["09:15"][1] - px[(e, k, "PE")]["09:15"][1]))
+            pnl, notes = 0.0, []
+            for kind in ("CE", "PE"):
+                bars = px[(e, k, kind)]
+                entry = bars["09:15"][1] * (1 - slip)
+                stop, out = entry * (1 + sl), None
+                for t in sorted(t for t in bars if "09:20" <= t <= "15:10"):
+                    if bars[t][0] >= stop:
+                        out, why = stop * (1 + slip), f"{kind} stopped {t}"
+                        break
+                    last = bars[t][1]
+                if out is None:
+                    out, why = last * (1 + slip), f"{kind} held"
+                pnl += (entry - out) * LOT - fees(entry, out)
+                notes.append(why)
+            dte = (date.fromisoformat(e) - date.fromisoformat(day)).days
+            total.setdefault(dte, []).append(pnl)
+            print(f"{day} expiry {e} ({dte}d) strike {k}: Rs {pnl:+8,.0f}/lot  ({', '.join(notes)})")
+    for dte, v in sorted(total.items()):
+        print(f"days to expiry {dte}: {len(v)} days, net Rs {sum(v):+,.0f}/lot, green {sum(x > 0 for x in v)}/{len(v)}")
+
+
 if __name__ == "__main__":
-    {"buy": main_buy, "sell": main_sell, "real": main_real}[sys.argv[1]]()
+    {"buy": main_buy, "sell": main_sell, "real": main_real, "cloud": main_cloud}[sys.argv[1]]()

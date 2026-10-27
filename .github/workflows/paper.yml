@@ -3,8 +3,11 @@
 name: paper-trading
 
 on:
-  schedule:
-    - cron: "50 3 * * 1-5"  # 09:20 IST Mon-Fri. GitHub may start it a few minutes late.
+  schedule:  # GitHub starts schedules late or skips them when busy, so several triggers:
+    - cron: "15 3 * * 1-5"  # 08:45 IST; the first one to start runs the session, later ones
+    - cron: "47 3 * * 1-5"  # 09:17 IST  queue behind it and exit in a minute (market closed)
+    - cron: "20 4 * * 1-5"  # 09:50 IST
+    - cron: "0 5 * * 1-5"   # 10:30 IST
   workflow_dispatch: {}      # "Run workflow" button for a manual start
 
 permissions:
@@ -27,7 +30,10 @@ jobs:
         env:
           BROKER: yahoo
           DATA_DIR: cloud
-        run: python bot.py
+        run: |
+          # GitHub kills jobs after 6 h: square off 10 min before that if the job started early
+          export END_BY=$(TZ=Asia/Kolkata date -d '+350 min' +%H:%M)
+          python bot.py
       - name: Save today's real NIFTY weekly option prices (research data)
         if: always()
         continue-on-error: true

@@ -30,6 +30,9 @@ RESEARCH_AT = time(9, 0)  # pre-market research
 ENTRY_START = time(9, 30)  # first 15 min only build the opening range
 ENTRY_END = time(14, 30)  # no fresh entries after this
 SQUARE_OFF = time(15, 15)  # everything flat before broker auto square-off (~15:20)
+if os.getenv("END_BY"):  # cloud runs have a hard time limit: finish the day before it
+    SQUARE_OFF = min(SQUARE_OFF, time.fromisoformat(os.environ["END_BY"]))
+    ENTRY_END = min(ENTRY_END, SQUARE_OFF)
 
 # --- strategy ---
 ATR_SL = 1.2  # stop = entry -/+ ATR_SL x ATR(14) on the index

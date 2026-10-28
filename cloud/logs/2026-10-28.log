@@ -1,3 +1,4 @@
 2026-10-28 09:38:59,833 WARNING research unavailable (No module named 'anthropic'): trading on price action alone
 2026-10-28 09:39:00,015 INFO balance Rs 150,000 | mode paper | broker yahoo | indices ['NIFTY']
 2026-10-28 09:39:05,111 INFO risk gate: outside entry window
+2026-10-28 10:02:05,992 INFO market closed for today

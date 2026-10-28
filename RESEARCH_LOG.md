@@ -55,3 +55,29 @@
   data point (+Rs 3,126/lot) in addition to 1, 7, and 8 days — every bucket is still green, but
   each bucket has only 1 day of data. Sample size: 2 trades / 1 day for the bot, 1 day per DTE
   bucket for the straddle — not yet meaningful.
+
+## 2026-10-28
+
+- Session status: ran, paper mode, 0/3 setups taken. Day report: net P&L Rs 0 (+0.00%).
+  Log shows a risk-gate rejection ("outside entry window") at 09:38, then "market closed for
+  today" logged twice (10:02, 10:39). This "market closed" message looks like a false reading
+  by the bot's own market-hours check, not a real holiday: cloud/options/2026-10-28.csv has full
+  5-minute bars from 09:15 to 15:35 for both tracked expiries (2026-11-03, 2026-11-09), i.e. the
+  market was open and trading normally all day. Flagging as an anomaly in the bot's own
+  logs/market-hours logic (not fixed here — out of scope for this analysis-only review).
+- Trades: no trades; journal.csv unchanged (still the 2 trades from 2026-10-27). review.py --all
+  output is identical to the 2026-10-27 entry above (net Rs -1,854, 2 trades, 1 day) — nothing
+  new to report there.
+- Real-price straddle (lab.py cloud), ATM 09:20 entry, 30% per-leg stop:
+  - expiry 2026-11-03 (6 days to expiry), strike 22550: +Rs 1,436/lot (CE stopped 12:45, PE held)
+  - expiry 2026-11-09 (12 days to expiry), strike 22600: +Rs 170/lot (CE stopped 12:55, PE held)
+  - Running totals (all days collected so far): DTE 0 — 1 day, net +Rs 3,126/lot, green 1/1;
+    DTE 1 — 1 day, net +Rs 4,585/lot, green 1/1; DTE 6 — 1 day, net +Rs 1,436/lot, green 1/1;
+    DTE 7 — 1 day, net +Rs 4,422/lot, green 1/1; DTE 8 — 1 day, net +Rs 3,212/lot, green 1/1;
+    DTE 12 — 1 day, net +Rs 170/lot, green 1/1.
+- Observations: (1) every straddle day collected so far (6 days now, across 6 different DTE
+  buckets) has been green, but each bucket still has only a single day — one bad move
+  on any of these buckets would flip it red, so this is not yet evidence of an edge either way.
+  (2) The newest, closer-to-expiry day (6 DTE, +Rs 1,436/lot) is the smallest win so far, which
+  is also consistent with plain noise given n=1 per bucket. Sample size: 1 day per DTE bucket —
+  not yet meaningful.

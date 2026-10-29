@@ -1,0 +1,56 @@
+2026-10-29 03:46:16,702 WARNING research unavailable (No module named 'anthropic'): trading on price action alone
+2026-10-29 03:46:16,790 INFO balance Rs 150,000 | mode paper | broker yahoo | indices ['NIFTY']
+2026-10-29 03:50:06,890 INFO risk gate: outside entry window
+2026-10-29 04:00:07,135 INFO NIFTY | market: bullish day: 22733.4 above open 22690.7 and prev close 22698.8 | chart: opening range forming
+2026-10-29 04:05:07,282 INFO NIFTY | market: bullish day: 22739.3 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22739.3 inside 22656.8-22745.7, rsi 65, ema9/21 22718.6/22709.4
+2026-10-29 04:10:07,483 INFO NIFTY | market: bullish day: 22758.4 above open 22690.7 and prev close 22698.8 | chart: LONG skipped: prior-day level 22777.8 sits before T1
+2026-10-29 04:15:07,628 INFO NIFTY | market: bullish day: 22740.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22740.8 inside 22656.8-22763.8, rsi 61, ema9/21 22729.4/22716.3
+2026-10-29 04:20:07,823 INFO NIFTY | market: bullish day: 22730.2 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22730.2 inside 22656.8-22769.5, rsi 56, ema9/21 22729.6/22717.6
+2026-10-29 04:25:07,966 INFO NIFTY | market: bullish day: 22758.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22758.8 inside 22679.8-22769.5, rsi 64, ema9/21 22735.4/22721.3
+2026-10-29 04:30:08,174 INFO NIFTY | market: bullish day: 22746.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22746.8 inside 22701.5-22769.5, rsi 59, ema9/21 22737.7/22723.6
+2026-10-29 04:35:03,323 INFO NIFTY | market: bullish day: 22759.2 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22759.2 inside 22701.5-22769.5, rsi 63, ema9/21 22742.0/22726.9
+2026-10-29 04:40:03,471 INFO NIFTY | market: bullish day: 22793.4 above open 22690.7 and prev close 22698.8 | chart: LONG NIFTY: close 22793.4 broke 30-min high 22770.7, ema9>ema21 trend, rsi 69, atr 30.8, PDH/PDL/PDC 22778/22498/22699
+2026-10-29 04:40:03,574 INFO F&O: NIFTY03NOV22750CE @ 205.89 | risk: REJECT: 1 lot risks ~Rs 1,620 vs budget Rs 1,500, costs Rs 13,383 vs cash limit Rs 75,000
+2026-10-29 04:45:03,728 INFO NIFTY | market: bullish day: 22786.9 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22786.9 inside 22714.9-22798.9, rsi 67, ema9/21 22759.2/22737.8
+2026-10-29 04:50:03,875 INFO NIFTY | market: bullish day: 22806.6 above open 22690.7 and prev close 22698.8 | chart: LONG NIFTY: close 22806.6 broke 30-min high 22798.9, ema9>ema21 trend, rsi 70, atr 30.5, PDH/PDL/PDC 22778/22498/22699
+2026-10-29 04:50:03,929 INFO F&O: NIFTY03NOV22750CE @ 213.87 | risk: REJECT: 1 lot risks ~Rs 1,601 vs budget Rs 1,500, costs Rs 13,902 vs cash limit Rs 75,000
+2026-10-29 04:55:04,072 INFO NIFTY | market: bullish day: 22822.1 above open 22690.7 and prev close 22698.8 | chart: LONG NIFTY: close 22822.1 broke 30-min high 22819.8, ema9>ema21 trend, rsi 73, atr 29.7, PDH/PDL/PDC 22778/22498/22699
+2026-10-29 04:55:04,125 INFO F&O: NIFTY03NOV22750CE @ 221.34 | risk: REJECT: 1 lot risks ~Rs 1,561 vs budget Rs 1,500, costs Rs 14,387 vs cash limit Rs 75,000
+2026-10-29 05:00:04,339 INFO NIFTY | market: bullish day: 22849.1 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22849.1 inside 22734.4-22822.5, rsi 77, ema9/21 22793.3/22760.1
+2026-10-29 05:05:04,490 INFO NIFTY | market: bullish day: 22864.3 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22864.3 inside 22746.4-22852.3, rsi 78, ema9/21 22807.5/22769.6
+2026-10-29 05:10:04,636 INFO NIFTY | market: bullish day: 22850.3 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22850.3 inside 22757.0-22873.8, rsi 73, ema9/21 22816.1/22776.9
+2026-10-29 05:15:04,787 INFO NIFTY | market: bullish day: 22848.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22848.8 inside 22771.8-22873.8, rsi 72, ema9/21 22822.6/22783.4
+2026-10-29 05:20:04,938 INFO NIFTY | market: bullish day: 22852.4 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22852.4 inside 22787.3-22873.8, rsi 73, ema9/21 22828.6/22789.7
+2026-10-29 05:25:05,086 INFO NIFTY | market: bullish day: 22843.6 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22843.6 inside 22802.8-22873.8, rsi 69, ema9/21 22831.6/22794.6
+2026-10-29 05:30:05,227 INFO NIFTY | market: bullish day: 22825.9 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22825.9 inside 22815.2-22873.8, rsi 62, ema9/21 22830.4/22797.4
+2026-10-29 05:35:05,373 INFO NIFTY | market: bullish day: 22828.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22828.8 inside 22818.2-22873.8, rsi 63, ema9/21 22830.1/22800.3
+2026-10-29 05:40:05,518 INFO NIFTY | market: bullish day: 22815.5 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22815.5 inside 22818.2-22865.9, rsi 58, ema9/21 22827.2/22801.7
+2026-10-29 05:45:05,675 INFO NIFTY | market: bullish day: 22836.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22836.8 inside 22812.5-22863.0, rsi 63, ema9/21 22829.1/22804.9
+2026-10-29 05:50:05,823 INFO NIFTY | market: bullish day: 22839.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22839.8 inside 22808.7-22861.8, rsi 64, ema9/21 22831.2/22808.0
+2026-10-29 05:55:05,981 INFO NIFTY | market: bullish day: 22842.6 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22842.6 inside 22808.7-22858.5, rsi 64, ema9/21 22833.5/22811.2
+2026-10-29 06:00:06,127 INFO NIFTY | market: bullish day: 22838.4 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22838.4 inside 22808.7-22858.5, rsi 63, ema9/21 22834.5/22813.7
+2026-10-29 06:05:06,324 INFO NIFTY | market: bullish day: 22848.9 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22848.9 inside 22808.7-22858.5, rsi 65, ema9/21 22837.4/22816.9
+2026-10-29 06:10:06,472 INFO NIFTY | market: bullish day: 22849.4 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22849.4 inside 22808.7-22858.5, rsi 65, ema9/21 22839.8/22819.8
+2026-10-29 06:15:06,622 INFO NIFTY | market: bullish day: 22854.9 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22854.9 inside 22808.7-22858.5, rsi 67, ema9/21 22842.8/22823.0
+2026-10-29 06:20:06,769 INFO NIFTY | market: bullish day: 22861.2 above open 22690.7 and prev close 22698.8 | chart: LONG NIFTY: close 22861.2 broke 30-min high 22858.5, ema9>ema21 trend, rsi 68, atr 23.1, PDH/PDL/PDC 22778/22498/22699
+2026-10-29 06:20:06,822 INFO F&O: NIFTY03NOV22800CE @ 213.38 | risk: APPROVED 1 lot(s) x 65: max loss ~Rs 1,224, T1 ~Rs 1,625, T2 ~Rs 3,250
+2026-10-29 06:20:06,822 INFO ENTRY #1 NIFTY03NOV22800CE x1 lots @ 214.02 | index SL 22833.4 T1 22902.8 T2 22944.5 | LONG NIFTY: close 22861.2 broke 30-min high 22858.5, ema9>ema21 trend, rsi 68, atr 23.1, PDH/PDL/PDC 22778/22498/22699
+2026-10-29 06:25:03,330 INFO risk gate: a position is already open
+2026-10-29 07:12:42,726 INFO EXIT NIFTY03NOV22800CE x1 lots @ 194.99 (stop loss) Rs -1,316
+2026-10-29 07:12:42,727 INFO CLOSED NIFTY03NOV22800CE net Rs -1,316 | day Rs -1,316
+2026-10-29 07:15:07,872 INFO NIFTY | market: bullish day: 22839.9 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22839.9 inside 22840.9-22869.3, rsi 52, ema9/21 22849.6/22842.8
+2026-10-29 07:20:08,020 INFO NIFTY | market: bullish day: 22815.9 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22815.9 inside 22828.8-22867.8, rsi 43, ema9/21 22842.9/22840.4
+2026-10-29 07:25:03,164 INFO NIFTY | market: bullish day: 22810.2 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22810.2 inside 22799.3-22859.6, rsi 41, ema9/21 22836.3/22837.6
+2026-10-29 07:30:03,311 INFO NIFTY | market: bullish day: 22830.3 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22830.3 inside 22799.3-22859.6, rsi 49, ema9/21 22835.1/22837.0
+2026-10-29 07:35:03,458 INFO NIFTY | market: bullish day: 22833.9 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22833.9 inside 22799.3-22854.2, rsi 51, ema9/21 22834.9/22836.7
+2026-10-29 07:40:03,614 INFO NIFTY | market: bullish day: 22843.8 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22843.8 inside 22799.3-22854.2, rsi 54, ema9/21 22836.7/22837.3
+2026-10-29 07:45:03,763 INFO NIFTY | market: bullish day: 22840.3 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22840.3 inside 22799.3-22854.2, rsi 53, ema9/21 22837.4/22837.6
+2026-10-29 07:50:03,913 INFO NIFTY | market: bullish day: 22829.1 above open 22690.7 and prev close 22698.8 | chart: no setup: close 22829.1 inside 22799.3-22847.2, rsi 48, ema9/21 22835.7/22836.8
+2026-10-29 07:55:04,069 INFO NIFTY | market: bullish day: 22856.3 above open 22690.7 and prev close 22698.8 | chart: LONG NIFTY: close 22856.3 broke 30-min high 22851.3, ema9>ema21 trend, rsi 58, atr 21.6, PDH/PDL/PDC 22778/22498/22699
+2026-10-29 07:55:04,121 INFO F&O: NIFTY03NOV22800CE @ 207.25 | risk: APPROVED 1 lot(s) x 65: max loss ~Rs 1,147, T1 ~Rs 1,520, T2 ~Rs 3,039
+2026-10-29 07:55:04,121 INFO ENTRY #2 NIFTY03NOV22800CE x1 lots @ 207.87 | index SL 22830.4 T1 22895.3 T2 22934.3 | LONG NIFTY: close 22856.3 broke 30-min high 22851.3, ema9>ema21 trend, rsi 58, atr 21.6, PDH/PDL/PDC 22778/22498/22699
+2026-10-29 08:00:05,656 INFO risk gate: a position is already open
+2026-10-29 08:30:45,272 INFO T1 reached on NIFTY: stop moved to breakeven 22856.3
+2026-10-29 08:55:37,799 INFO EXIT NIFTY03NOV22800CE x1 lots @ 255.31 (target 2) Rs 3,000
+2026-10-29 08:55:37,799 INFO CLOSED NIFTY03NOV22800CE net Rs 3,000 | day Rs 1,684
+2026-10-29 09:00:07,894 INFO risk gate: outside entry window

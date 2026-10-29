@@ -1,3 +1,5 @@
 date,in,out,contract,side,lots,entry,exit,reason,pnl,risk_rs,mfe_r,mae_r,dte,rsi,atr,risk_pts,trend_atr,stretch_atr,day_pct,vix,why
 2026-10-27,12:00,12:18,NIFTY03NOV22750CE,LONG,1,243.89,226.03,stop loss,-1244.75,1202,0.06,-1.04,7,59.5,22.7,27.3,0.31,1.1,0.11,16.7,"LONG NIFTY: close 22778.8 broke 30-min high 22769.8, ema9>ema21 trend, rsi 60, atr 22.7, PDH/PDL/PDC 22753/22387/22753"
 2026-10-27,13:30,14:31,NIFTY03NOV22750PE,SHORT,1,233.5,225.41,breakeven stop,-608.84,1297,1.56,-0.97,7,68.1,24.6,29.5,0.69,2.49,0.3,16.9,"SHORT NIFTY: close 22684.8 broke 30-min low 22689.3, ema9<ema21 trend, rsi 32, atr 24.6, PDH/PDL/PDC 22753/22387/22753"
+2026-10-29,11:50,12:42,NIFTY03NOV22800CE,LONG,1,214.02,194.99,stop loss,-1316.05,1224,0.29,-1.04,5,68.2,23.1,27.8,0.86,1.5,0.72,15.6,"LONG NIFTY: close 22861.2 broke 30-min high 22858.5, ema9>ema21 trend, rsi 68, atr 23.1, PDH/PDL/PDC 22778/22498/22699"
+2026-10-29,13:25,14:25,NIFTY03NOV22800CE,LONG,1,207.87,255.31,target 2,3000.27,1147,3.23,-0.68,5,57.6,21.6,26.0,0.06,0.82,0.69,15.5,"LONG NIFTY: close 22856.3 broke 30-min high 22851.3, ema9>ema21 trend, rsi 58, atr 21.6, PDH/PDL/PDC 22778/22498/22699"

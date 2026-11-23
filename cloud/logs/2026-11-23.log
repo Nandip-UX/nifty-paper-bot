@@ -1,0 +1,62 @@
+2026-11-23 03:46:27,728 WARNING research unavailable (No module named 'anthropic'): trading on price action alone
+2026-11-23 03:46:27,791 INFO balance Rs 150,000 | mode paper | broker yahoo | indices ['NIFTY']
+2026-11-23 03:50:07,869 INFO risk gate: outside entry window
+2026-11-23 04:00:08,059 INFO NIFTY | market: bearish day: 25675.2 below open 25929.2 and prev close 25800.6 | chart: opening range forming
+2026-11-23 04:05:03,179 INFO NIFTY | market: bearish day: 25573.2 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25573.2 inside 25669.5-25991.9, rsi 29, ema9/21 25731.3/25745.5
+2026-11-23 04:10:03,286 INFO NIFTY | market: bearish day: 25685.9 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25685.9 inside 25573.2-25991.9, rsi 45, ema9/21 25722.2/25740.1
+2026-11-23 04:15:03,405 INFO NIFTY | market: bearish day: 25690.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25690.4 inside 25567.4-25991.9, rsi 45, ema9/21 25715.9/25735.6
+2026-11-23 04:20:03,516 INFO NIFTY | market: bearish day: 25660.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25660.4 inside 25567.4-25991.9, rsi 42, ema9/21 25704.8/25728.7
+2026-11-23 04:25:03,625 INFO NIFTY | market: bearish day: 25663.1 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25663.1 inside 25567.4-25878.4, rsi 43, ema9/21 25696.4/25722.8
+2026-11-23 04:30:03,740 INFO NIFTY | market: bearish day: 25641.5 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25641.5 inside 25567.4-25786.9, rsi 41, ema9/21 25685.4/25715.4
+2026-11-23 04:35:03,847 INFO NIFTY | market: bearish day: 25634.2 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25634.2 inside 25567.4-25733.7, rsi 40, ema9/21 25675.2/25708.0
+2026-11-23 04:40:03,953 INFO NIFTY | market: bearish day: 25626.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25626.4 inside 25567.4-25716.8, rsi 39, ema9/21 25665.4/25700.6
+2026-11-23 04:45:04,066 INFO NIFTY | market: bearish day: 25609.6 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25609.6 inside 25609.6-25705.6, rsi 37, ema9/21 25654.3/25692.3
+2026-11-23 04:50:04,184 INFO NIFTY | market: bearish day: 25618.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25618.4 inside 25582.6-25701.9, rsi 39, ema9/21 25647.1/25685.6
+2026-11-23 04:55:04,301 INFO NIFTY | market: bearish day: 25606.9 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25606.9 inside 25582.6-25701.9, rsi 38, ema9/21 25639.1/25678.4
+2026-11-23 05:00:04,420 INFO NIFTY | market: bearish day: 25613.3 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25613.3 inside 25581.3-25683.8, rsi 39, ema9/21 25633.9/25672.5
+2026-11-23 05:05:04,545 INFO NIFTY | market: bearish day: 25610.2 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25610.2 inside 25581.3-25656.1, rsi 38, ema9/21 25629.2/25666.9
+2026-11-23 05:10:04,659 INFO NIFTY | market: bearish day: 25605.6 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25605.6 inside 25581.3-25653.7, rsi 38, ema9/21 25624.5/25661.3
+2026-11-23 05:15:04,767 INFO NIFTY | market: bearish day: 25592.2 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25592.2 inside 25577.5-25642.5, rsi 36, ema9/21 25618.0/25655.0
+2026-11-23 05:20:04,908 INFO NIFTY | market: bearish day: 25589.8 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25589.8 inside 25577.5-25642.5, rsi 36, ema9/21 25612.4/25649.1
+2026-11-23 05:25:05,026 INFO NIFTY | market: bearish day: 25571.3 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25571.3 inside 25576.3-25628.3, rsi 33, ema9/21 25604.2/25642.0
+2026-11-23 05:30:05,149 INFO NIFTY | market: bearish day: 25557.0 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25557.0 inside 25549.7-25628.3, rsi 31, ema9/21 25594.7/25634.3
+2026-11-23 05:35:05,261 INFO NIFTY | market: bearish day: 25520.3 below open 25929.2 and prev close 25800.6 | chart: SHORT NIFTY: close 25520.3 broke 30-min low 25549.7, ema9<ema21 trend, rsi 27, atr 42.6, PDH/PDL/PDC 25809/25354/25801
+2026-11-23 05:35:05,296 INFO F&O: NIFTY24NOV25550PE @ 118.06 | risk: REJECT: 1 lot risks ~Rs 2,227 vs budget Rs 1,500, costs Rs 7,674 vs cash limit Rs 75,000
+2026-11-23 05:40:05,407 INFO NIFTY | market: bearish day: 25571.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25571.4 inside 25516.9-25613.8, rsi 39, ema9/21 25578.2/25619.2
+2026-11-23 05:45:05,529 INFO NIFTY | market: bearish day: 25599.6 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25599.6 inside 25516.9-25613.8, rsi 45, ema9/21 25582.4/25617.4
+2026-11-23 05:50:05,645 INFO NIFTY | market: bearish day: 25593.9 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25593.9 inside 25516.9-25609.1, rsi 44, ema9/21 25584.7/25615.2
+2026-11-23 05:55:05,756 INFO NIFTY | market: bearish day: 25619.6 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25619.6 inside 25516.9-25664.3, rsi 49, ema9/21 25591.7/25615.6
+2026-11-23 06:00:05,875 INFO NIFTY | market: bearish day: 25615.0 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25615.0 inside 25516.9-25664.3, rsi 48, ema9/21 25596.4/25615.6
+2026-11-23 06:05:05,995 INFO NIFTY | market: bearish day: 25619.6 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25619.6 inside 25516.9-25664.3, rsi 49, ema9/21 25601.0/25615.9
+2026-11-23 06:10:06,111 INFO NIFTY | market: bearish day: 25572.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25572.4 inside 25520.1-25664.3, rsi 41, ema9/21 25595.3/25612.0
+2026-11-23 06:15:06,215 INFO NIFTY | market: bearish day: 25559.7 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25559.7 inside 25560.9-25664.3, rsi 39, ema9/21 25588.2/25607.2
+2026-11-23 06:20:06,330 INFO NIFTY | market: bearish day: 25544.8 below open 25929.2 and prev close 25800.6 | chart: SHORT NIFTY: close 25544.8 broke 30-min low 25546.7, ema9<ema21 trend, rsi 37, atr 42.4, PDH/PDL/PDC 25809/25354/25801
+2026-11-23 06:20:06,370 INFO F&O: NIFTY24NOV25600PE @ 129.51 | risk: REJECT: 1 lot risks ~Rs 2,213 vs budget Rs 1,500, costs Rs 8,418 vs cash limit Rs 75,000
+2026-11-23 06:25:06,487 INFO NIFTY | market: bearish day: 25523.1 below open 25929.2 and prev close 25800.6 | chart: SHORT NIFTY: close 25523.1 broke 30-min low 25536.1, ema9<ema21 trend, rsi 34, atr 41.8, PDH/PDL/PDC 25809/25354/25801
+2026-11-23 06:25:06,525 INFO F&O: NIFTY24NOV25550PE @ 113.61 | risk: REJECT: 1 lot risks ~Rs 2,182 vs budget Rs 1,500, costs Rs 7,385 vs cash limit Rs 75,000
+2026-11-23 06:30:06,636 INFO NIFTY | market: bearish day: 25513.8 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25513.8 inside 25517.7-25635.3, rsi 33, ema9/21 25557.3/25587.1
+2026-11-23 06:35:06,750 INFO NIFTY | market: bearish day: 25512.6 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25512.6 inside 25510.3-25626.1, rsi 33, ema9/21 25548.4/25580.3
+2026-11-23 06:40:06,861 INFO NIFTY | market: bearish day: 25519.6 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25519.6 inside 25503.8-25621.8, rsi 35, ema9/21 25542.6/25574.8
+2026-11-23 06:45:06,971 INFO NIFTY | market: bearish day: 25530.8 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25530.8 inside 25491.4-25574.9, rsi 38, ema9/21 25540.2/25570.8
+2026-11-23 06:50:07,182 INFO NIFTY | market: bearish day: 25519.7 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25519.7 inside 25491.4-25566.2, rsi 36, ema9/21 25536.1/25566.2
+2026-11-23 06:55:07,291 INFO NIFTY | market: bearish day: 25510.2 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25510.2 inside 25491.4-25551.6, rsi 35, ema9/21 25531.0/25561.1
+2026-11-23 07:00:07,417 INFO NIFTY | market: bearish day: 25503.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25503.4 inside 25491.4-25543.0, rsi 34, ema9/21 25525.5/25555.8
+2026-11-23 07:05:07,532 INFO NIFTY | market: bearish day: 25514.8 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25514.8 inside 25491.4-25543.0, rsi 37, ema9/21 25523.3/25552.1
+2026-11-23 07:10:07,650 INFO NIFTY | market: bearish day: 25509.8 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25509.8 inside 25491.4-25543.0, rsi 36, ema9/21 25520.6/25548.3
+2026-11-23 07:15:07,862 INFO NIFTY | market: bearish day: 25506.0 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25506.0 inside 25497.9-25543.0, rsi 35, ema9/21 25517.7/25544.4
+2026-11-23 07:20:08,063 INFO NIFTY | market: bearish day: 25495.7 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25495.7 inside 25481.2-25533.6, rsi 34, ema9/21 25513.3/25540.0
+2026-11-23 07:25:03,271 INFO NIFTY | market: bearish day: 25478.4 below open 25929.2 and prev close 25800.6 | chart: SHORT NIFTY: close 25478.4 broke 30-min low 25481.2, ema9<ema21 trend, rsi 30, atr 32.3, PDH/PDL/PDC 25809/25354/25801
+2026-11-23 07:25:03,340 INFO F&O: NIFTY24NOV25550PE @ 138.97 | risk: REJECT: 1 lot risks ~Rs 1,693 vs budget Rs 1,500, costs Rs 9,033 vs cash limit Rs 75,000
+2026-11-23 07:30:03,497 INFO NIFTY | market: bearish day: 25487.2 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25487.2 inside 25478.2-25526.7, rsi 34, ema9/21 25502.5/25530.1
+2026-11-23 07:35:03,624 INFO NIFTY | market: bearish day: 25474.7 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25474.7 inside 25467.7-25526.7, rsi 32, ema9/21 25496.9/25525.1
+2026-11-23 07:40:03,737 INFO NIFTY | market: bearish day: 25469.4 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25469.4 inside 25467.7-25526.7, rsi 31, ema9/21 25491.4/25520.0
+2026-11-23 07:45:03,861 INFO NIFTY | market: bearish day: 25463.7 below open 25929.2 and prev close 25800.6 | chart: SHORT NIFTY: close 25463.7 broke 30-min low 25464.8, ema9<ema21 trend, rsi 30, atr 28.5, PDH/PDL/PDC 25809/25354/25801
+2026-11-23 07:45:03,898 INFO F&O: NIFTY24NOV25500PE @ 116.48 | risk: APPROVED 1 lot(s) x 65: max loss ~Rs 1,499, T1 ~Rs 2,000, T2 ~Rs 4,000
+2026-11-23 07:45:03,898 INFO ENTRY #1 NIFTY24NOV25500PE x1 lots @ 116.83 | index SL 25497.9 T1 25412.4 T2 25361.1 | SHORT NIFTY: close 25463.7 broke 30-min low 25464.8, ema9<ema21 trend, rsi 30, atr 28.5, PDH/PDL/PDC 25809/25354/25801
+2026-11-23 07:50:05,412 INFO risk gate: a position is already open
+2026-11-23 08:37:21,566 INFO T1 reached on NIFTY: stop moved to breakeven 25463.7
+2026-11-23 08:50:04,960 INFO EXIT NIFTY24NOV25500PE x1 lots @ 125.31 (trend fading after T1) Rs 485
+2026-11-23 08:50:04,960 INFO CLOSED NIFTY24NOV25500PE net Rs 485 | day Rs 485
+2026-11-23 08:50:04,995 INFO NIFTY | market: bearish day: 25442.1 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25442.1 inside 25401.6-25473.7, rsi 41, ema9/21 25440.1/25462.4
+2026-11-23 08:55:05,109 INFO NIFTY | market: bearish day: 25447.9 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25447.9 inside 25401.6-25473.7, rsi 43, ema9/21 25441.7/25461.1
+2026-11-23 09:00:05,194 INFO risk gate: outside entry window

@@ -61,3 +61,4 @@
 2026-11-23 08:55:05,109 INFO NIFTY | market: bearish day: 25447.9 below open 25929.2 and prev close 25800.6 | chart: no setup: close 25447.9 inside 25401.6-25473.7, rsi 43, ema9/21 25441.7/25461.1
 2026-11-23 09:00:05,194 INFO risk gate: outside entry window
 2026-11-23 12:35:48,392 INFO market closed for today
+2026-11-23 13:41:38,522 INFO market closed for today

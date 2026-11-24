@@ -269,3 +269,7 @@
   positive), but each bucket still has only 2-5 days — not nearly enough to call it an edge
   despite the encouraging aggregate. Sample size: 5 trades/3 days for the bot; 40 day×expiry
   samples, 2-5 per DTE bucket, for the straddle — not yet meaningful at the per-bucket level.
+
+## 2026-11-24
+
+- 2026-11-24: NSE holiday (Guru Nanak Jayanti) — bot correctly logged "no candles today", no options CSV, nothing new to review. FINAL_REPORT.md already filed on 2026-11-23; no change to its conclusions.

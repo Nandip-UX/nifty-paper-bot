@@ -1,0 +1,64 @@
+2026-11-25 03:46:34,981 WARNING research unavailable (No module named 'anthropic'): trading on price action alone
+2026-11-25 03:46:35,048 INFO balance Rs 150,000 | mode paper | broker yahoo | indices ['NIFTY']
+2026-11-25 03:50:05,123 INFO risk gate: outside entry window
+2026-11-25 04:00:05,319 INFO NIFTY | market: bullish day: 25774.2 above open 25658.3 and prev close 25366.4 | chart: opening range forming
+2026-11-25 04:05:05,441 INFO NIFTY | market: bullish day: 25779.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25779.8 inside 25620.2-25775.5, rsi 84, ema9/21 25602.2/25515.9
+2026-11-25 04:10:05,610 INFO NIFTY | market: bullish day: 25754.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25754.7 inside 25620.2-25795.6, rsi 79, ema9/21 25632.7/25537.6
+2026-11-25 04:15:05,731 INFO NIFTY | market: bullish day: 25739.2 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25739.2 inside 25620.2-25795.6, rsi 76, ema9/21 25654.0/25555.9
+2026-11-25 04:20:05,842 INFO NIFTY | market: bullish day: 25741.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25741.7 inside 25620.2-25795.6, rsi 76, ema9/21 25671.5/25572.8
+2026-11-25 04:25:05,961 INFO NIFTY | market: bullish day: 25769.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25769.8 inside 25695.6-25795.6, rsi 78, ema9/21 25691.2/25590.7
+2026-11-25 04:30:06,094 INFO NIFTY | market: bullish day: 25773.1 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25773.1 inside 25695.6-25795.6, rsi 78, ema9/21 25707.6/25607.3
+2026-11-25 04:35:06,234 INFO NIFTY | market: bullish day: 25731.4 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25731.4 inside 25718.2-25795.6, rsi 69, ema9/21 25712.4/25618.6
+2026-11-25 04:40:06,355 INFO NIFTY | market: bullish day: 25738.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25738.7 inside 25718.2-25794.3, rsi 70, ema9/21 25717.6/25629.5
+2026-11-25 04:45:06,479 INFO NIFTY | market: bullish day: 25770.0 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25770.0 inside 25718.2-25794.3, rsi 73, ema9/21 25728.1/25642.3
+2026-11-25 04:50:06,590 INFO NIFTY | market: bullish day: 25805.2 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25805.2 inside 25718.2-25794.3, rsi 75, ema9/21 25743.5/25657.1
+2026-11-25 04:55:06,715 INFO NIFTY | market: bullish day: 25786.4 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25786.4 inside 25721.1-25808.4, rsi 71, ema9/21 25752.1/25668.8
+2026-11-25 05:00:06,840 INFO NIFTY | market: bullish day: 25805.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25805.3 inside 25721.1-25817.7, rsi 73, ema9/21 25762.7/25681.2
+2026-11-25 05:05:06,960 INFO NIFTY | market: bullish day: 25807.2 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25807.2 inside 25721.1-25817.7, rsi 73, ema9/21 25771.6/25692.7
+2026-11-25 05:10:07,079 INFO NIFTY | market: bullish day: 25839.9 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25839.9 inside 25721.1-25817.7, rsi 76, ema9/21 25785.3/25706.1
+2026-11-25 05:15:07,208 INFO NIFTY | market: bullish day: 25832.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25832.3 inside 25721.1-25840.4, rsi 74, ema9/21 25794.7/25717.6
+2026-11-25 05:20:07,329 INFO NIFTY | market: bullish day: 25847.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25847.8 inside 25762.2-25850.1, rsi 75, ema9/21 25805.3/25729.4
+2026-11-25 05:25:07,633 INFO NIFTY | market: bullish day: 25853.1 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25853.1 inside 25769.2-25852.9, rsi 75, ema9/21 25814.9/25740.6
+2026-11-25 05:30:07,755 INFO NIFTY | market: bullish day: 25878.6 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25878.6 inside 25779.9-25854.5, rsi 78, ema9/21 25827.6/25753.2
+2026-11-25 05:35:07,875 INFO NIFTY | market: bullish day: 25907.9 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25907.9 inside 25798.8-25879.6, rsi 80, ema9/21 25843.7/25767.2
+2026-11-25 05:40:07,997 INFO NIFTY | market: bullish day: 25920.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25920.8 inside 25806.4-25914.1, rsi 80, ema9/21 25859.1/25781.2
+2026-11-25 05:45:03,113 INFO NIFTY | market: bullish day: 25913.4 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25913.4 inside 25818.2-25924.5, rsi 78, ema9/21 25870.0/25793.2
+2026-11-25 05:50:03,242 INFO NIFTY | market: bullish day: 25934.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25934.8 inside 25832.4-25924.5, rsi 80, ema9/21 25882.9/25806.1
+2026-11-25 05:55:03,366 INFO NIFTY | market: bullish day: 25924.5 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25924.5 inside 25842.4-25942.6, rsi 77, ema9/21 25891.2/25816.9
+2026-11-25 06:00:03,504 INFO NIFTY | market: bullish day: 25911.4 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25911.4 inside 25852.6-25942.6, rsi 73, ema9/21 25895.3/25825.5
+2026-11-25 06:05:03,618 INFO NIFTY | market: bullish day: 25900.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25900.8 inside 25878.8-25942.6, rsi 70, ema9/21 25896.4/25832.3
+2026-11-25 06:10:03,742 INFO NIFTY | market: bullish day: 25918.6 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25918.6 inside 25897.8-25942.6, rsi 72, ema9/21 25900.8/25840.1
+2026-11-25 06:15:03,855 INFO NIFTY | market: bullish day: 25949.5 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25949.5 inside 25898.9-25942.6, rsi 76, ema9/21 25910.6/25850.1
+2026-11-25 06:20:03,997 INFO NIFTY | market: bullish day: 25939.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25939.3 inside 25898.9-25950.0, rsi 73, ema9/21 25916.3/25858.2
+2026-11-25 06:25:04,153 INFO NIFTY | market: bullish day: 25921.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25921.8 inside 25898.9-25951.7, rsi 68, ema9/21 25917.4/25864.0
+2026-11-25 06:30:04,279 INFO NIFTY | market: bullish day: 25905.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25905.7 inside 25898.9-25951.7, rsi 64, ema9/21 25915.1/25867.8
+2026-11-25 06:35:04,399 INFO NIFTY | market: bullish day: 25896.5 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25896.5 inside 25898.9-25951.7, rsi 61, ema9/21 25911.4/25870.4
+2026-11-25 06:40:04,514 INFO NIFTY | market: bullish day: 25881.9 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25881.9 inside 25895.3-25951.7, rsi 58, ema9/21 25905.5/25871.4
+2026-11-25 06:45:04,645 INFO NIFTY | market: bullish day: 25897.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25897.8 inside 25880.9-25951.7, rsi 60, ema9/21 25903.9/25873.8
+2026-11-25 06:50:04,764 INFO NIFTY | market: bullish day: 25901.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25901.8 inside 25859.2-25951.7, rsi 61, ema9/21 25903.5/25876.4
+2026-11-25 06:55:04,883 INFO NIFTY | market: bullish day: 25899.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25899.7 inside 25859.2-25944.6, rsi 61, ema9/21 25902.7/25878.5
+2026-11-25 07:00:05,058 INFO NIFTY | market: bullish day: 25883.2 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25883.2 inside 25859.2-25934.7, rsi 56, ema9/21 25898.8/25878.9
+2026-11-25 07:05:05,189 INFO NIFTY | market: bullish day: 25810.6 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25810.6 inside 25859.2-25914.6, rsi 41, ema9/21 25881.2/25872.7
+2026-11-25 07:10:05,312 INFO NIFTY | market: bullish day: 25784.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25784.3 inside 25803.0-25914.6, rsi 37, ema9/21 25861.8/25864.7
+2026-11-25 07:15:05,439 INFO NIFTY | market: bullish day: 25772.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25772.3 inside 25784.0-25911.6, rsi 36, ema9/21 25843.9/25856.3
+2026-11-25 07:20:05,576 INFO NIFTY | market: bullish day: 25762.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25762.8 inside 25764.7-25911.6, rsi 35, ema9/21 25827.7/25847.8
+2026-11-25 07:25:05,698 INFO NIFTY | market: bullish day: 25747.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25747.3 inside 25757.7-25911.6, rsi 33, ema9/21 25811.6/25838.7
+2026-11-25 07:30:05,820 INFO NIFTY | market: bullish day: 25711.2 above open 25658.3 and prev close 25366.4 | chart: SHORT NIFTY: close 25711.2 broke 30-min low 25730.2, ema9<ema21 trend, rsi 28, atr 34.9, PDH/PDL/PDC 25992/25344/25366
+2026-11-25 07:35:05,939 INFO NIFTY | market: bullish day: 25715.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25715.8 inside 25700.6-25884.6, rsi 30, ema9/21 25776.4/25817.0
+2026-11-25 07:40:06,077 INFO NIFTY | market: bullish day: 25665.1 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25665.1 inside 25686.7-25843.3, rsi 24, ema9/21 25754.1/25803.1
+2026-11-25 07:45:06,198 INFO NIFTY | market: mixed day: 25653.2 between open 25658.3 and prev close 25366.4 | chart: no setup: close 25653.2 inside 25660.7-25791.2, rsi 23, ema9/21 25733.9/25789.5
+2026-11-25 07:50:06,314 INFO NIFTY | market: bullish day: 25667.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25667.7 inside 25651.2-25784.9, rsi 27, ema9/21 25720.7/25778.4
+2026-11-25 07:55:06,430 INFO NIFTY | market: bullish day: 25684.9 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25684.9 inside 25634.2-25776.8, rsi 32, ema9/21 25713.5/25769.9
+2026-11-25 08:00:06,554 INFO NIFTY | market: bullish day: 25702.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25702.7 inside 25634.2-25748.6, rsi 36, ema9/21 25711.4/25763.8
+2026-11-25 08:05:06,707 INFO NIFTY | market: bullish day: 25715.7 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25715.7 inside 25634.2-25727.3, rsi 39, ema9/21 25712.2/25759.4
+2026-11-25 08:10:06,832 INFO NIFTY | market: bullish day: 25707.6 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25707.6 inside 25634.2-25754.6, rsi 38, ema9/21 25711.3/25754.7
+2026-11-25 08:15:06,952 INFO NIFTY | market: bullish day: 25729.1 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25729.1 inside 25634.2-25754.6, rsi 43, ema9/21 25714.9/25752.4
+2026-11-25 08:20:07,069 INFO NIFTY | market: bullish day: 25725.4 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25725.4 inside 25634.2-25754.6, rsi 43, ema9/21 25717.0/25749.9
+2026-11-25 08:25:07,195 INFO NIFTY | market: bullish day: 25704.4 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25704.4 inside 25654.1-25754.6, rsi 39, ema9/21 25714.5/25745.8
+2026-11-25 08:30:07,322 INFO NIFTY | market: bullish day: 25728.8 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25728.8 inside 25670.4-25754.6, rsi 45, ema9/21 25717.3/25744.3
+2026-11-25 08:35:07,452 INFO NIFTY | market: bullish day: 25746.1 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25746.1 inside 25679.6-25754.6, rsi 49, ema9/21 25723.1/25744.4
+2026-11-25 08:40:07,575 INFO NIFTY | market: bullish day: 25752.6 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25752.6 inside 25679.6-25782.3, rsi 50, ema9/21 25729.0/25745.2
+2026-11-25 08:45:07,691 INFO NIFTY | market: bullish day: 25759.4 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25759.4 inside 25691.8-25782.3, rsi 51, ema9/21 25735.1/25746.5
+2026-11-25 08:50:07,804 INFO NIFTY | market: bullish day: 25758.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25758.3 inside 25692.8-25782.3, rsi 51, ema9/21 25739.7/25747.5
+2026-11-25 08:55:07,923 INFO NIFTY | market: bullish day: 25741.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25741.3 inside 25692.8-25782.3, rsi 47, ema9/21 25740.0/25747.0
+2026-11-25 09:00:08,063 INFO risk gate: outside entry window

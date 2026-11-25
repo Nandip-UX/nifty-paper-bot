@@ -273,3 +273,7 @@
 ## 2026-11-24
 
 - 2026-11-24: NSE holiday (Guru Nanak Jayanti) — bot correctly logged "no candles today", no options CSV, nothing new to review. FINAL_REPORT.md already filed on 2026-11-23; no change to its conclusions.
+
+## 2026-11-25
+
+- 2026-11-25: normal session, 0/3 setups taken (1 SHORT rejected, chart against the day's bullish bias) — journal.csv unchanged at 5 trades/3 days, review.py verdicts unchanged. Two new real-price straddle samples: DTE 6 (expiry 12-01) strike 25750 Rs -1,209/lot (CE stopped 10:35, PE held); DTE 13 (expiry 12-08) strike 25750 Rs -3,665/lot (CE stopped 10:40, PE held) — both red. Running total now 42 day×expiry samples, net +Rs 58,976/lot, 30/42 green (71%); worst day still -Rs 5,853 (2026-11-19, DTE 4). FINAL_REPORT.md already filed on 2026-11-23; these two extra samples don't change its "no reliable edge found" conclusion. Sample size still not meaningful per DTE bucket (2-5 days each).

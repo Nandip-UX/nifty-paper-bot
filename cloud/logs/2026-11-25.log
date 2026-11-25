@@ -62,3 +62,4 @@
 2026-11-25 08:50:07,804 INFO NIFTY | market: bullish day: 25758.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25758.3 inside 25692.8-25782.3, rsi 51, ema9/21 25739.7/25747.5
 2026-11-25 08:55:07,923 INFO NIFTY | market: bullish day: 25741.3 above open 25658.3 and prev close 25366.4 | chart: no setup: close 25741.3 inside 25692.8-25782.3, rsi 47, ema9/21 25740.0/25747.0
 2026-11-25 09:00:08,063 INFO risk gate: outside entry window
+2026-11-25 12:53:07,714 INFO market closed for today

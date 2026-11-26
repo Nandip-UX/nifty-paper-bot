@@ -277,3 +277,7 @@
 ## 2026-11-25
 
 - 2026-11-25: normal session, 0/3 setups taken (1 SHORT rejected, chart against the day's bullish bias) — journal.csv unchanged at 5 trades/3 days, review.py verdicts unchanged. Two new real-price straddle samples: DTE 6 (expiry 12-01) strike 25750 Rs -1,209/lot (CE stopped 10:35, PE held); DTE 13 (expiry 12-08) strike 25750 Rs -3,665/lot (CE stopped 10:40, PE held) — both red. Running total now 42 day×expiry samples, net +Rs 58,976/lot, 30/42 green (71%); worst day still -Rs 5,853 (2026-11-19, DTE 4). FINAL_REPORT.md already filed on 2026-11-23; these two extra samples don't change its "no reliable edge found" conclusion. Sample size still not meaningful per DTE bucket (2-5 days each).
+
+## 2026-11-26
+
+- 2026-11-26: SESSION MISSING — Thursday, not a known NSE holiday, but zero GitHub Actions runs fired all day (checked at 16:16 IST): none of the 4 scheduled cron triggers nor a push trigger started paper.yml, unlike prior holidays where it still ran and logged "no candles today". No report, options CSV, journal, or log for this date — a pure infrastructure gap (out of scope to fix here); journal/review/lab numbers unchanged from 2026-11-25. FINAL_REPORT.md already filed on 2026-11-23.
